@@ -1,9 +1,17 @@
+import Navbar from "../components/Navbar"
+import Content from "../components/Content"
+import Footer from "../components/Footer"
 
 const Home = () => {
   return (
     <>
-      <h1>Home</h1>
-      
+      <div>
+        <Navbar />
+        <div className="w-3/4 mx-auto m-12">
+          <Content />
+        </div>
+        <Footer />
+      </div>
     </>
   )
 }
