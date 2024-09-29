@@ -21,13 +21,16 @@
 
 :root {
   --def-font: "Poppins", sans-serif;
+  --def-bg: #f5f5f7;
+  --def-clr-light: #0f0f10;
 
-  --def-bg: #f5f6f7;
+  --bg-clr-dark: rgb(15, 19, 31);
+  --txt-clr-dark: rgb(205, 215, 219);
 }
 
 * {
   scrollbar-width: thin;
-  scrollbar-color: #e4e6f1 #ffffff;
+  scrollbar-color: grey var(--def-bg);
 }
 
 *::-webkit-scrollbar {
@@ -55,7 +58,13 @@
 
 body {
   background: var(--def-bg);
+  color: var(--def-clr-light);
   font-family: var(--def-font);
-  scroll-behavior: smooth;
   overflow-x: hidden;
+  unicode-bidi: isolate;
+}
+
+.dark body {
+  background: var(--bg-clr-dark);
+  color: var(--txt-clr-dark);
 }
