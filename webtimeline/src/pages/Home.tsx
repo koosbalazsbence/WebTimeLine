@@ -46,11 +46,11 @@ const Home: React.FC = () => {
             Cheat Activated!
           </div>
         )}
-        <div className="grid grid-cols-6 w-3/4 mx-auto">
-          <div className="col-span-1">
+        <div className="md:grid flex flex-col justify-center md:grid-cols-6 md:w-3/4 w-11/12 mx-auto">
+          <div className="md:col-span-1">
             <TableOfContents />
           </div>
-          <div className="mt-12 col-span-5">
+          <div className="mt-12 md:col-span-5">
             <Content />
           </div>
         </div>

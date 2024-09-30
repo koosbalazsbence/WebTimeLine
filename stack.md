@@ -1,13 +1,13 @@
 ## 📚 Suggested Tech Stack:
 
-- #### Frontend: React + Vite
-- #### Styling: Tailwind CSS (with Google Fonts and Heroicons)
-- #### State Management: React Context (or none)
-- #### Routing: React Router (if needed)
-- #### Animations: Framer Motion
-- #### Markdown Parsing: React Markdown (or MDX)
-- #### Hosting: Vercel or Netlify
-- #### Content: Markdown files or Headless CMS (Sanity/Contentful)
+- #### Frontend: React + Vite ✅
+- #### Styling: Tailwind CSS (with Google Fonts and Heroicons) ✅
+- #### State Management: React Context (or none) ✅
+- #### Routing: React Router (if needed) ✅
+- #### Animations: Framer Motion ❌
+- #### Markdown Parsing: React Markdown (or MDX) ❌
+- #### Hosting: Vercel or Netlify ❌
+- #### Content: Markdown files or Headless CMS (Sanity/Contentful) ❌
 
 ## ⚡ Structure:
 

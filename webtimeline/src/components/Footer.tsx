@@ -17,7 +17,7 @@ const Footer = () => {
           <Link
             to="https://hu.wikipedia.org/wiki/Internet"
             target="_blank"
-            className="hover:underline underline-offset-2 hover:text-blue-500"
+            className="hover:underline underline-offset-2 hover:text-blue-500 transition"
           >
             {t("footerSourceLink")}
           </Link>
@@ -27,7 +27,7 @@ const Footer = () => {
           <Link
             to="https://github.com/koosbalazsbence"
             target="_blank"
-            className="hover:underline underline-offset-2 hover:text-green-700"
+            className="hover:underline underline-offset-2 hover:text-green-700 transition"
           >
             Koós Balázs Bence
           </Link>
